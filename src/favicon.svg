@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Background circle -->
+  <circle cx="32" cy="32" r="32" fill="#16A34A"/>
+
+  <!-- Store/Shop icon -->
+  <path d="M 16 22 L 20 14 L 44 14 L 48 22 Z" fill="#FFFFFF" opacity="0.9"/>
+  <rect x="16" y="22" width="32" height="4" fill="#FFFFFF"/>
+  <rect x="18" y="26" width="28" height="20" rx="1" fill="#FFFFFF"/>
+
+  <!-- Door -->
+  <rect x="28" y="34" width="8" height="12" fill="#16A34A"/>
+
+  <!-- Window -->
+  <rect x="22" y="30" width="6" height="6" fill="#16A34A" opacity="0.7"/>
+  <rect x="36" y="30" width="6" height="6" fill="#16A34A" opacity="0.7"/>
+
+  <!-- Profit symbol (upward trend arrow) -->
+  <path d="M 48 46 L 54 40 L 50 40 L 50 34 L 46 34 L 46 40 L 42 40 Z" fill="#FBBF24"/>
+  <circle cx="48" cy="42" r="10" fill="#16A34A" opacity="0"/>
+</svg>
