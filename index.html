@@ -2,7 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <!-- Favicon: SVG with sizes="any" helps Chromium browsers -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" sizes="any" />
+    <!-- Standard fallback for most browsers (ICO) -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <!-- High-res fallback for Safari and iOS -->
+    <link rel="icon" type="image/png" href="/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Duka Profit Calculator</title>
     <meta name="description" content="Real-time profit and margin calculator for small businesses and traders in Kenya. Calculate costs, revenue, and profit instantly." />
